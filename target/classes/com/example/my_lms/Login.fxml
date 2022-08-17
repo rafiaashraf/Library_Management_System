@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="697.0" prefWidth="1045.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.my_lms.Login">
+   <children>
+      <ImageView accessibleRole="BUTTON" fitHeight="697.0" fitWidth="1087.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nustlibrary.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="119.0" layoutY="121.0" prefHeight="115.0" prefWidth="762.0" styleClass="anchor" stylesheets="@../../../../java/com/example/my_lms/Login.css" text="LIBRARY  MANAGMENT  SYSTEM" textFill="#110f0f">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="48.0" />
+         </font>
+         <effect>
+            <ColorAdjust brightness="-1.0" contrast="-1.0" hue="-1.0" saturation="1.0" />
+         </effect>
+      </Label>
+      <Button fx:id="btnAdmin" layoutX="404.0" layoutY="297.0" onAction="#AdminLoginAction" prefHeight="44.0" prefWidth="242.0" text="     Login as Admin">
+         <effect>
+            <ColorAdjust brightness="-0.05" contrast="-0.09" hue="0.19" saturation="1.0" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnStudent" layoutX="404.0" layoutY="358.0" onAction="#StudentLoginAction" prefHeight="44.0" prefWidth="242.0" text="      Login as Student">
+         <effect>
+            <ColorAdjust brightness="-0.05" contrast="-0.09" hue="0.19" saturation="1.0">
+               <input>
+                  <ColorAdjust />
+               </input>
+            </ColorAdjust>
+         </effect>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+
+   </children>
+</AnchorPane>

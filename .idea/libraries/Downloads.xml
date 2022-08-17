@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="Downloads">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/poi-5.2.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/poi-examples-5.2.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/poi-excelant-5.2.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/poi-ooxml-5.2.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/poi-ooxml-full-5.2.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/poi-ooxml-lite-5.2.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/poi-scratchpad-5.2.2.jar!/" />
+      <root url="file://$USER_HOME$/Downloads" />
+      <root url="file://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2" />
+      <root url="file://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/auxiliary" />
+      <root url="file://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/lib" />
+      <root url="file://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/ooxml-lib" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/poi-javadoc-5.2.2.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/auxiliary" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/lib" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/ooxml-lib" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads" recursive="false" type="SOURCES" />
+  </library>
+</component>

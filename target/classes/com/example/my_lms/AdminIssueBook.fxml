@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="697.0" prefWidth="1045.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.my_lms.AdminIssueBookController">
+   <children>
+      <ImageView fitHeight="697.0" fitWidth="1045.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nustlibrary.jpg" />
+         </image>
+         <effect>
+            <ColorAdjust />
+         </effect></ImageView>
+      <TableView fx:id="tIssueBook" layoutX="158.0" layoutY="159.0" prefHeight="353.0" prefWidth="789.0">
+         <columns>
+            <TableColumn fx:id="tcBookId" prefWidth="193.0" text="BOOK ID" />
+            <TableColumn fx:id="tcBookName" prefWidth="196.0" text="BOOK NAME" />
+            <TableColumn fx:id="tcStudentId" prefWidth="199.0" text="STUDENT ID" />
+            <TableColumn fx:id="tcStudentName" prefWidth="200.0" text="STUDENT NAME" />
+         </columns>
+      </TableView>
+      <DatePicker fx:id="dpDueDate" layoutX="438.0" layoutY="540.0" prefHeight="26.0" prefWidth="248.0" promptText="Enter Due Date" />
+      <DatePicker fx:id="dpIssueDate" layoutX="158.0" layoutY="540.0" prefHeight="26.0" prefWidth="248.0" promptText="Enter Issue Date" />
+      <Button layoutX="677.0" layoutY="601.0" mnemonicParsing="false" onAction="#CancelAction" prefHeight="25.0" prefWidth="124.0" text="Cancel">
+         <effect>
+            <ColorAdjust brightness="-0.05" contrast="-0.09" hue="0.19" saturation="1.0" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="843.0" layoutY="601.0" mnemonicParsing="false" onAction="#IssueAction" prefHeight="25.0" prefWidth="104.0" text="Issue">
+         <effect>
+            <ColorAdjust brightness="-0.05" contrast="-0.09" hue="0.19" saturation="1.0" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="347.0" layoutY="58.0" prefHeight="49.0" prefWidth="384.0" text="ISSUE  BOOK" textFill="#7e1818">
+         <font>
+            <Font name="Georgia Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ivBack" fitHeight="29.0" fitWidth="60.0" layoutY="7.0" onMouseClicked="#ivBackAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backk1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

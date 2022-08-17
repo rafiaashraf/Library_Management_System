@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="697.0" prefWidth="1045.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.my_lms.EditProfileController">
+   <children>
+      <ImageView fitHeight="697.0" fitWidth="1045.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nustlibrary.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="376.0" layoutX="221.0" layoutY="226.0" opacity="0.65" stroke="BLACK" strokeType="INSIDE" width="647.0">
+         <fill>
+            <LinearGradient endX="0.13636361107681727" endY="1.0" startX="0.6590909804358627">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.10526315867900848" green="0.10526315867900848" blue="0.10526315867900848" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.3684210479259491" green="0.21896035969257355" blue="0.07914230227470398" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+
+      <Label layoutX="354.0" layoutY="164.0" prefHeight="49.0" prefWidth="336.0" text="EDIT  PROFILE" textFill="#7e1818">
+         <font>
+            <Font name="Georgia Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="288.0" layoutY="267.0" prefHeight="31.0" prefWidth="111.0" text="Name" textFill="WHITE">
+         <font>
+            <Font name="Georgia Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="288.0" layoutY="320.0" prefHeight="31.0" prefWidth="163.0" text="Father Name" textFill="WHITE">
+         <font>
+            <Font name="Georgia Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="288.0" layoutY="383.0" prefHeight="31.0" prefWidth="163.0" text="Date of Birth" textFill="WHITE">
+         <font>
+            <Font name="Georgia Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="288.0" layoutY="440.0" prefHeight="31.0" prefWidth="111.0" text="Email" textFill="WHITE">
+         <font>
+            <Font name="Georgia Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="288.0" layoutY="490.0" prefHeight="31.0" prefWidth="181.0" text="Course" textFill="WHITE">
+         <font>
+            <Font name="Georgia Bold" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ivBack" fitHeight="29.0" fitWidth="60.0" onMouseClicked="#ivBackAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backk1.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tfName" layoutX="484.0" layoutY="270.0" prefHeight="25.0" prefWidth="309.0" />
+      <TextField fx:id="tfFatherName" layoutX="484.0" layoutY="323.0" prefHeight="25.0" prefWidth="309.0" />
+      <TextField fx:id="tfEmail" layoutX="484.0" layoutY="443.0" prefHeight="25.0" prefWidth="309.0" />
+      <TextField fx:id="tfCourse" layoutX="484.0" layoutY="493.0" prefHeight="25.0" prefWidth="309.0" />
+      <DatePicker fx:id="dpDob" layoutX="484.0" layoutY="386.0" prefHeight="25.0" prefWidth="309.0" />
+      <Button layoutX="680.0" layoutY="544.0" mnemonicParsing="false" onAction="#SaveAction" prefHeight="31.0" prefWidth="111.0" text="SAVE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust brightness="-0.05" contrast="-0.09" hue="0.19" saturation="1.0" />
+         </effect></Button>
+   </children>
+</AnchorPane>
